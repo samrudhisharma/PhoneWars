@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************
+**********************************/
+/*
+****************************************
+              Body + Wrapper
+****************************************
+*/  
+/*body
+{
+background-image: url(../imgs/bg2.jpg);
+width: 100%;
+font-family:sans-serif;
+}
+#wrapper
+{
+width:960px;
+margin:0 auto;
+padding: 0px 5px;
+
+
+}
+
+/*
+******************************************
+Header + Navbar
+*******************************************
+*/
+/*
+header
+{
+width:100%;
+height: 140px;
+background-color:rgba(0,0,0,0.4);
+}
+header h1
+{
+line-height: 80px;
+padding: 40px 25px 15px;
+color:#fff;
+font-size: 45px;
+float:left;
+}
+#navbar
+{
+float:right;
+width: 70%;
+height: 100px;
+}
+#navbar ul li:first-child
+{
+
+margin-left:45px;
+}
+#navbar ul li
+{
+display: inline;	
+height: 165px;
+line-height: 165px;
+font-size: 20px;
+border-radius:5px; 
+padding:6px 10px;
+width:60px; 
+}
+#navbar ul li:last-child
+{	
+border-right:1px solid rgba(0,0,0,0);
+}
+#navbar ul li a
+{
+text-decoration: none;
+color:#fff;
+padding: 0px 10px;
+}
+#navbar ul li a.active
+{
+color:#049cdb;
+}
+#navbar ul li:hover
+{
+background-color: rgba(255,255,255,0.1);
+}
+/***************************
+Compare Section
+****************************/
+*
+{
+	padding: 0px;
+	margin:0px;
+}
+.selectOption
+{
+
+	background-color: rgba(41,41,41,0.5);
+	background-color: #1e789d;
+	border-radius: 5px;
+	height: 1.7em;
+	width: 41em;
+	margin: 0 auto;
+	padding: 8px;
+}
+
+
+.phoneComparisonTable
+{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 200px;
+}
+.selectOption label
+{
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 26px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+input[value="Add a phone"]
+{
+	margin:2px 14px;
+	margin-right: 4px;
+	padding: 1px 8px;
+	
+}
+
+input[value="Add a phone"]:hover ,input[value="Remove all phones"]:hover
+{
+	background-color: #d4d4d4;
+}
+
+input[value="Remove all phones"]
+{
+	padding: 1px 8px;
+	margin: 2px 10px;
+}
+.selectPhone
+{
+	display: inline;
+
+}	
+input[type='image']
+{
+	margin:10px;
+}
+#selectInput
+{
+	background-color: #f8f8f8;
+	outline: none;
+	padding: 0px;
+
+}
+.selectOption input[type="button"]
+{
+	outline: 0;	
+	border: 0;
+	border:1px solid #a7a7a7;
+}
+/****************************************
+Phone Comparison Table
+***************************************/
+.handsetImage , #handsetImg , #handsetImg1 , #handsetImg2
+{
+	height:100px;
+	width: 100px;   
+	margin-top: 5px;
+	
+}
+.phoneComparisonTable
+{
+	margin-top: 20px;
+	background-color: transparent;
+	
+}
+#displayList
+{
+	overflow: hidden;
+	margin-left:6em;
+}
+#displayList li
+{
+	list-style-type: none;
+}
+#displayList .phoneItem
+{
+	width: 12em;
+	height: 13.5em;
+	background-color: rgba(245,245,245,0.5);
+	display: block;
+	float: left;
+	border-left: 1px solid #e6e6e6;
+	
+}
+
+#displayList .phoneItem:last-child
+{
+	border-right: 1px solid #e6e6e6;
+}
+
+
+#addedInfoText
+{
+	text-align: center;
+}
+
+#addedInfoText p
+{
+	margin-top: 90px;
+	font-weight: bold;
+}
+
+.removePhone
+{
+	float: right;
+	padding: 11px;
+}
+
+.handsetImage
+{
+	margin-left: 65px;
+	margin-top: 30px;
+}
+.handsetName
+{
+	margin-top:30px;
+	text-decoration: none;
+	text-align: center;
+	color: #282929;
+}
+
+
+/****************************************
+Phone Comparison Table -ACTUAL TABLE
+***************************************/
+.PhoneCompVal 
+{
+	border-collapse: collapse;	
+	margin-left: 6em;
+}
+.PhoneCompVal td:first-child
+{
+	background-color: #eee;
+}
+.PhoneCompVal td
+{ 
+	width: 11.6em;
+	border:1px solid #e6e6e6;
+	padding: 4px;
+	text-align: center;
+	background-color: #abc;
+}
+.PhoneCompVal .head
+{
+	/*border-top: 1px solid #00b0b0;*/
+	text-align: left;
+
+}
+.PhoneCompVal tr>td
+{
+	border-top: 1px solid #0033b4;
+}
+.PhoneCompVal th
+{
+	padding: 12px 0; 
+	padding-top: 15px;
+	float: left;
+	font-weight: bold;
+
+}
+
+/*
+**********************
+       Footer
+**********************
+*//*
+footer
+{
+height:150px;
+background-color:rgba(0,0,0,0.4);
+color:#fff;
+padding:10px;
+clear: both;
+}
+
+footer ul li a
+{
+text-decoration: none;
+
+color: #fff;
+font-size: 12px;
+}
+
+footer ul li
+{
+display: inline;
+}
+
+footer ul li p
+{
+width: 100px;
+}
+
+footer img
+{
+height: 4em;
+width: 4em;
+
+}*/

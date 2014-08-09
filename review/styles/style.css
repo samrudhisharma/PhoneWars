@@ -1,0 +1,103 @@
+.cwrapper
+{
+	overflow: hidden;
+	padding:20px 20px;
+	background-image: url(../images/bg.jpg);
+	box-shadow: 2px 2px 4px #555 inset;
+	font-family: "Myriad Pro";
+}
+#search
+{
+	text-align: center;
+}
+.content
+{
+	margin-left:240px;
+	color:#000;
+}
+#image
+{
+	margin-left: 50px;
+	margin-top: 0px;
+}
+.result
+{
+	display: inline;
+	float: left;
+}
+.result h3
+{
+	padding-bottom: 10px;
+}
+.result p
+{
+	border-top: 1px blue solid;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+h1.result
+{
+	border-bottom: 1px solid #aaa;
+	float:none;
+	display: block;
+}
+.result h1
+{
+	border-bottom: 1px solid red;
+	margin-bottom: 30px; 
+}
+#disqus_thread
+{
+	display:inline-block;
+	width: 350px;
+	margin:50px;
+}
+table
+{
+	border-collapse:collapse;
+	border: 1px #ccc solid;
+}
+table tr:first-child
+{
+	border-top: 1px blue solid;
+}
+table tr td
+{
+	padding: 10px;
+	width: 100px;
+	background-color: #abc;
+}
+table tr td:first-child
+{
+	width: 150px;
+	background-color: #eee;
+}
+.content h4
+{
+	border:1px rgb(255,255,103) solid;
+	background-color: rgb(255,255,193);
+	padding: 10px 5px;
+}
+.content p
+{
+	padding: 10px 5px;
+	font-size: 12px;
+}
+.content h3
+{
+	padding: 10px 5px;
+	font-size: 14px;
+}
+h4  span
+{
+	float:right;
+	margin-right: 10px;
+	font-size: 20px;
+	position: relative;
+	top:-4px;
+}
+h4  span:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
